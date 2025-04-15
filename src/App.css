@@ -1,0 +1,7 @@
+.app {
+  @apply min-h-screen bg-gray-50;
+}
+
+main {
+  @apply py-8;
+}

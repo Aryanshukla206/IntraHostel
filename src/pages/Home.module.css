@@ -1,0 +1,29 @@
+.container {
+  @apply max-w-7xl mx-auto px-8;
+}
+
+.hero {
+  @apply text-center mb-16;
+}
+
+.hero h1 {
+  @apply text-5xl text-primary mb-4;
+}
+
+.hero p {
+  @apply text-xl text-gray-600;
+}
+
+.sportsGrid {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8;
+}
+
+@media (max-width: 768px) {
+  .container {
+    @apply px-4;
+  }
+  
+  .hero h1 {
+    @apply text-3xl;
+  }
+}

@@ -1,0 +1,33 @@
+.header {
+  @apply bg-primary text-white p-4 shadow-md;
+}
+
+.banner {
+  @apply text-center py-8;
+}
+
+.banner h1 {
+  @apply m-0 text-4xl text-white;
+}
+
+.nav {
+  @apply flex justify-center gap-8 py-4;
+}
+
+.nav a {
+  @apply text-white no-underline font-medium px-4 py-2 rounded-md transition-colors;
+}
+
+.nav a:hover {
+  @apply bg-white/10;
+}
+
+@media (max-width: 768px) {
+  .banner h1 {
+    @apply text-2xl;
+  }
+  
+  .nav {
+    @apply flex-wrap gap-4;
+  }
+}
