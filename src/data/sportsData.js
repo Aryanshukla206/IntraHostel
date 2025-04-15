@@ -36,7 +36,9 @@ export const sports = {
       { id: "30", name: "Kuldeep upadhyay", room: "127", contact: "9721158634" },
       { id: "31", name: "Harsh", room: "86", contact: "9119787569" }
     ],
-    fixtures: []
+    fixtures: [],
+    pointsTableA: [],
+    pointsTableB: [],
   },
   badminton: {
     id: "badminton",
@@ -86,8 +88,8 @@ export const sports = {
       {
         "id": 1,
         "round": "Group Stage (Group A)",
-        "date": "2025-04-16",
-        "time": "17:00",
+        "date": "2025-04-14",
+        "time": "18:00",
         "player1": "Harsh & Ranjeet",
         "player2": "Suyash & Soumya",
         "status": "1-0"
@@ -95,8 +97,8 @@ export const sports = {
       {
         "id": 2,
         "round": "Group Stage (Group A)",
-        "date": "2025-04-17",
-        "time": "17:00",
+        "date": "2025-04-14",
+        "time": "18:00",
         "player1": "Harsh & Ranjeet",
         "player2": "Jayaram & Pratham",
         "status": "1-0"
@@ -104,17 +106,17 @@ export const sports = {
       {
         "id": 3,
         "round": "Group Stage (Group A)",
-        "date": "2025-04-18",
-        "time": "17:00",
+        "date": "2025-04-15",
+        "time": "18:20",
         "player1": "Harsh & Ranjeet",
         "player2": "Arpit Mahajan & Benoy",
-        "status": "Upcoming"
+        "status": "0-1"
       },
       {
         "id": 4,
         "round": "Group Stage (Group A)",
-        "date": "2025-04-19",
-        "time": "17:00",
+        "date": "2025-04-14",
+        "time": "18:20",
         "player1": "Harsh & Ranjeet",
         "player2": "Raj Sehwag & Naman",
         "status": "0-1"
@@ -122,35 +124,35 @@ export const sports = {
       {
         "id": 5,
         "round": "Group Stage (Group A)",
-        "date": "2025-04-20",
-        "time": "17:00",
+        "date": "2025-04-15",
+        "time": "7:00",
         "player1": "Harsh & Ranjeet",
         "player2": "Tumisang & Aryan Yadav",
-        "status": "Upcoming"
+        "status": "0-1"
       },
       {
         "id": 6,
         "round": "Group Stage (Group A)",
-        "date": "2025-04-21",
-        "time": "17:00",
+        "date": "2025-04-15",
+        "time": "7:30",
         "player1": "Harsh & Ranjeet",
-        "player2": "Mehul & Jatin",
-        "status": "Upcoming"
+        "player2": "Ram & Jatin",
+        "status": "Today"
       },
       {
         "id": 7,
         "round": "Group Stage (Group A)",
-        "date": "2025-04-22",
-        "time": "17:00",
+        "date": "2025-04-15",
+        "time": "19:00",
         "player1": "Harsh & Ranjeet",
-        "player2": "Ram & Gaurav",
-        "status": "Upcoming"
+        "player2": "Saksham & Gaurav",
+        "status": "0-1"
       },
       {
         "id": 8,
         "round": "Group Stage (Group A)",
-        "date": "2025-04-23",
-        "time": "17:00",
+        "date": "2025-04-15",
+        "time": "19:00",
         "player1": "Harsh & Ranjeet",
         "player2": "Arpit Pandey & Nishant",
         "status": "Upcoming"
@@ -158,17 +160,17 @@ export const sports = {
       {
         "id": 9,
         "round": "Group Stage (Group A)",
-        "date": "2025-04-24",
-        "time": "17:00",
+        "date": "2025-04-15",
+        "time": "19:20",
         "player1": "Suyash & Soumya",
         "player2": "Jayaram & Pratham",
-        "status": "Upcoming"
+        "status": "0-1"
       },
       {
         "id": 10,
         "round": "Group Stage (Group A)",
-        "date": "2025-04-25",
-        "time": "17:00",
+        "date": "2025-04-14",
+        "time": "19:20",
         "player1": "Suyash & Soumya",
         "player2": "Arpit Mahajan & Benoy",
         "status": "0-1"
@@ -176,53 +178,53 @@ export const sports = {
       {
         "id": 11,
         "round": "Group Stage (Group A)",
-        "date": "2025-04-26",
-        "time": "17:00",
+        "date": "2025-04-15",
+        "time": "19:40",
         "player1": "Suyash & Soumya",
         "player2": "Raj Sehwag & Naman",
-        "status": "Upcoming"
+        "status": "Today"
       },
       {
         "id": 12,
         "round": "Group Stage (Group A)",
-        "date": "2025-04-27",
-        "time": "17:00",
+        "date": "2025-04-15",
+        "time": "6:20",
         "player1": "Suyash & Soumya",
         "player2": "Tumisang & Aryan Yadav",
-        "status": "Upcoming"
+        "status": "Today"
       },
       {
         "id": 13,
         "round": "Group Stage (Group A)",
-        "date": "2025-04-28",
-        "time": "17:00",
+        "date": "2025-04-16",
+        "time": "18:00",
         "player1": "Suyash & Soumya",
-        "player2": "Mehul & Jatin",
-        "status": "Upcoming"
+        "player2": "Ram & Jatin",
+        "status": "1-0"
       },
       {
         "id": 14,
         "round": "Group Stage (Group A)",
-        "date": "2025-04-29",
-        "time": "17:00",
+        "date": "2025-04-16",
+        "time": "18:00",
         "player1": "Suyash & Soumya",
-        "player2": "Ram & Gaurav",
-        "status": "Upcoming"
+        "player2": "Saksham & Gaurav",
+        "status": "Today"
       },
       {
         "id": 15,
         "round": "Group Stage (Group A)",
-        "date": "2025-04-30",
-        "time": "17:00",
+        "date": "2025-04-16",
+        "time": "18:20",
         "player1": "Suyash & Soumya",
         "player2": "Arpit Pandey & Nishant",
-        "status": "Upcoming"
+        "status": "Today"
       },
       {
         "id": 16,
         "round": "Group Stage (Group A)",
-        "date": "2025-05-01",
-        "time": "17:00",
+        "date": "2025-04-14",
+        "time": "18:20",
         "player1": "Jayaram & Pratham",
         "player2": "Arpit Mahajan & Benoy",
         "status": "0-1"
@@ -230,53 +232,53 @@ export const sports = {
       {
         "id": 17,
         "round": "Group Stage (Group A)",
-        "date": "2025-05-02",
-        "time": "17:00",
+        "date": "2025-04-16",
+        "time": "18:40",
         "player1": "Jayaram & Pratham",
         "player2": "Raj Sehwag & Naman",
-        "status": "Upcoming"
+        "status": "Today"
       },
       {
         "id": 18,
         "round": "Group Stage (Group A)",
-        "date": "2025-05-03",
-        "time": "17:00",
+        "date": "2025-04-16",
+        "time": "18:40",
         "player1": "Jayaram & Pratham",
         "player2": "Tumisang & Aryan Yadav",
-        "status": "Upcoming"
+        "status": "Today"
       },
       {
         "id": 19,
         "round": "Group Stage (Group A)",
-        "date": "2025-05-04",
-        "time": "17:00",
+        "date": "2025-04-16",
+        "time": "19:00",
         "player1": "Jayaram & Pratham",
-        "player2": "Mehul & Jatin",
-        "status": "Upcoming"
+        "player2": "Ram & Jatin",
+        "status": "Today"
       },
       {
         "id": 20,
         "round": "Group Stage (Group A)",
-        "date": "2025-05-05",
-        "time": "17:00",
+        "date": "2025-04-16",
+        "time": "19:00",
         "player1": "Jayaram & Pratham",
-        "player2": "Ram & Gaurav",
-        "status": "Upcoming"
+        "player2": "Saksham & Gaurav",
+        "status": "0-1"
       },
       {
         "id": 21,
         "round": "Group Stage (Group A)",
-        "date": "2025-05-06",
-        "time": "17:00",
+        "date": "2025-04-16",
+        "time": "19:20",
         "player1": "Jayaram & Pratham",
         "player2": "Arpit Pandey & Nishant",
-        "status": "Upcoming"
+        "status": "0-1"
       },
       {
         "id": 22,
         "round": "Group Stage (Group A)",
-        "date": "2025-05-07",
-        "time": "17:00",
+        "date": "2025-04-16",
+        "time": "19:20",
         "player1": "Arpit Mahajan & Benoy",
         "player2": "Raj Sehwag & Naman",
         "status": "Upcoming"
@@ -284,8 +286,8 @@ export const sports = {
       {
         "id": 23,
         "round": "Group Stage (Group A)",
-        "date": "2025-05-08",
-        "time": "17:00",
+        "date": "2025-04-16",
+        "time": "19:40",
         "player1": "Arpit Mahajan & Benoy",
         "player2": "Tumisang & Aryan Yadav",
         "status": "1-0"
@@ -293,35 +295,35 @@ export const sports = {
       {
         "id": 24,
         "round": "Group Stage (Group A)",
-        "date": "2025-05-09",
-        "time": "17:00",
+        "date": "2025-04-16",
+        "time": "19:40",
         "player1": "Arpit Mahajan & Benoy",
-        "player2": "Mehul & Jatin",
-        "status": "Upcoming"
+        "player2": "Ram & Jatin",
+        "status": "1-0"
       },
       {
         "id": 25,
         "round": "Group Stage (Group A)",
-        "date": "2025-05-10",
-        "time": "17:00",
+        "date": "2025-04-17",
+        "time": "18:00",
         "player1": "Arpit Mahajan & Benoy",
-        "player2": "Ram & Gaurav",
-        "status": "Upcoming"
+        "player2": "Saksham & Gaurav",
+        "status": "1-0"
       },
       {
         "id": 26,
         "round": "Group Stage (Group A)",
-        "date": "2025-05-11",
-        "time": "17:00",
+        "date": "2025-04-17",
+        "time": "18:00",
         "player1": "Arpit Mahajan & Benoy",
         "player2": "Arpit Pandey & Nishant",
-        "status": "Upcoming"
+        "status": "1-0"
       },
       {
         "id": 27,
         "round": "Group Stage (Group A)",
-        "date": "2025-05-12",
-        "time": "17:00",
+        "date": "2025-04-17",
+        "time": "18:20",
         "player1": "Raj Sehwag & Naman",
         "player2": "Tumisang & Aryan Yadav",
         "status": "0-1"
@@ -329,26 +331,26 @@ export const sports = {
       {
         "id": 28,
         "round": "Group Stage (Group A)",
-        "date": "2025-05-13",
-        "time": "17:00",
+        "date": "2025-04-17",
+        "time": "18:20",
         "player1": "Raj Sehwag & Naman",
-        "player2": "Mehul & Jatin",
-        "status": "Upcoming"
+        "player2": "Ram & Jatin",
+        "status": "Today"
       },
       {
         "id": 29,
         "round": "Group Stage (Group A)",
-        "date": "2025-05-14",
-        "time": "17:00",
+        "date": "2025-04-17",
+        "time": "18:40",
         "player1": "Raj Sehwag & Naman",
-        "player2": "Ram & Gaurav",
+        "player2": "Saksham & Gaurav",
         "status": "Upcoming"
       },
       {
         "id": 30,
         "round": "Group Stage (Group A)",
-        "date": "2025-05-15",
-        "time": "17:00",
+        "date": "2025-04-17",
+        "time": "18:40",
         "player1": "Raj Sehwag & Naman",
         "player2": "Arpit Pandey & Nishant",
         "status": "Upcoming"
@@ -356,445 +358,530 @@ export const sports = {
       {
         "id": 31,
         "round": "Group Stage (Group A)",
-        "date": "2025-05-16",
-        "time": "17:00",
+        "date": "2025-04-17",
+        "time": "19:00",
         "player1": "Tumisang & Aryan Yadav",
-        "player2": "Mehul & Jatin",
-        "status": "1-0"
+        "player2": "Ram & Jatin",
+        "status": "Upcoming"
       },
       {
         "id": 32,
         "round": "Group Stage (Group A)",
-        "date": "2025-05-17",
-        "time": "17:00",
+        "date": "2025-04-17",
+        "time": "19:00",
         "player1": "Tumisang & Aryan Yadav",
-        "player2": "Ram & Gaurav",
-        "status": "Upcoming"
+        "player2": "Saksham & Gaurav",
+        "status": "1-0"
       },
       {
         "id": 33,
         "round": "Group Stage (Group A)",
-        "date": "2025-05-18",
-        "time": "17:00",
+        "date": "2025-04-17",
+        "time": "19:20",
         "player1": "Tumisang & Aryan Yadav",
         "player2": "Arpit Pandey & Nishant",
-        "status": "Upcoming"
+        "status": "1-0"
       },
       {
         "id": 34,
         "round": "Group Stage (Group A)",
-        "date": "2025-05-19",
-        "time": "17:00",
-        "player1": "Mehul & Jatin",
-        "player2": "Ram & Gaurav",
+        "date": "2025-04-17",
+        "time": "19:20",
+        "player1": "Ram & Jatin",
+        "player2": "Saksham & Gaurav",
         "status": "Upcoming"
       },
       {
         "id": 35,
         "round": "Group Stage (Group A)",
-        "date": "2025-05-20",
-        "time": "17:00",
-        "player1": "Mehul & Jatin",
+        "date": "2025-04-17",
+        "time": "19:40",
+        "player1": "Ram & Jatin",
         "player2": "Arpit Pandey & Nishant",
         "status": "Upcoming"
       },
       {
         "id": 36,
         "round": "Group Stage (Group A)",
-        "date": "2025-05-21",
-        "time": "17:00",
-        "player1": "Ram & Gaurav",
+        "date": "2025-04-17",
+        "time": "19:40",
+        "player1": "Saksham & Gaurav",
         "player2": "Arpit Pandey & Nishant",
         "status": "Upcoming"
       },
       {
         "id": 37,
         "round": "Group Stage (Group B)",
-        "date": "2025-05-22",
-        "time": "17:00",
-        "player1": "Team B1",
-        "player2": "Team B2",
-        "status": "Upcoming"
+        "date": "2025-04-18",
+        "time": "18:00",
+        "player1": "Mohit and Amit",
+        "player2": "Kushal and Adarsh",
+        "status": "1-0"
       },
       {
         "id": 38,
         "round": "Group Stage (Group B)",
-        "date": "2025-05-23",
-        "time": "17:00",
-        "player1": "Team B1",
-        "player2": "Team B3",
-        "status": "Upcoming"
+        "date": "2025-04-18",
+        "time": "18:00",
+        "player1": "Mohit and Amit",
+        "player2": "Vimlesh and Raman",
+        "status": "1-0"
       },
       {
         "id": 39,
         "round": "Group Stage (Group B)",
-        "date": "2025-05-24",
-        "time": "17:00",
-        "player1": "Team B1",
-        "player2": "Team B4",
-        "status": "Upcoming"
+        "date": "2025-04-18",
+        "time": "18:20",
+        "player1": "Mohit and Amit",
+        "player2": "Deepak and Sahil",
+        "status": "1-0"
       },
       {
         "id": 40,
         "round": "Group Stage (Group B)",
-        "date": "2025-05-25",
-        "time": "17:00",
-        "player1": "Team B1",
-        "player2": "Team B5",
-        "status": "Upcoming"
+        "date": "2025-04-18",
+        "time": "18:20",
+        "player1": "Mohit and Amit",
+        "player2": "Stanzin and Akash",
+        "status": "1-0"
       },
       {
         "id": 41,
         "round": "Group Stage (Group B)",
-        "date": "2025-05-26",
-        "time": "17:00",
-        "player1": "Team B1",
-        "player2": "Team B6",
-        "status": "Upcoming"
+        "date": "2025-04-18",
+        "time": "18:40",
+        "player1": "Mohit and Amit",
+        "player2": "kumar Anurag and Vidit",
+        "status": "1-0"
       },
       {
         "id": 42,
         "round": "Group Stage (Group B)",
-        "date": "2025-05-27",
-        "time": "17:00",
-        "player1": "Team B1",
-        "player2": "Team B7",
-        "status": "Upcoming"
+        "date": "2025-04-18",
+        "time": "18:40",
+        "player1": "Mohit and Amit",
+        "player2": "Raunak and Razzaq",
+        "status": "1-0"
       },
       {
         "id": 43,
         "round": "Group Stage (Group B)",
-        "date": "2025-05-28",
-        "time": "17:00",
-        "player1": "Team B1",
-        "player2": "Team B8",
-        "status": "Upcoming"
+        "date": "2025-04-18",
+        "time": "19:00",
+        "player1": "Mohit and Amit",
+        "player2": "Aryan Shukla and Pradyumn Attri",
+        "status": "1-0"
       },
       {
         "id": 44,
         "round": "Group Stage (Group B)",
-        "date": "2025-05-29",
-        "time": "17:00",
-        "player1": "Team B1",
-        "player2": "Team B9",
-        "status": "Upcoming"
+        "date": "2025-04-18",
+        "time": "19:00",
+        "player1": "Kushal and Adarsh",
+        "player2": "Vimlesh and Raman",
+        "status": "0-1"
       },
       {
         "id": 45,
         "round": "Group Stage (Group B)",
-        "date": "2025-05-30",
-        "time": "17:00",
-        "player1": "Team B2",
-        "player2": "Team B3",
-        "status": "Upcoming"
+        "date": "2025-04-18",
+        "time": "19:20",
+        "player1": "Kushal and Adarsh",
+        "player2": "Deepak and Sahil",
+        "status": "0-1"
       },
       {
         "id": 46,
         "round": "Group Stage (Group B)",
-        "date": "2025-05-31",
-        "time": "17:00",
-        "player1": "Team B2",
-        "player2": "Team B4",
-        "status": "Upcoming"
+        "date": "2025-04-18",
+        "time": "19:20",
+        "player1": "Kushal and Adarsh",
+        "player2": "Stanzin and Akash",
+        "status": "Today"
       },
       {
         "id": 47,
         "round": "Group Stage (Group B)",
-        "date": "2025-06-01",
-        "time": "17:00",
-        "player1": "Team B2",
-        "player2": "Team B5",
-        "status": "Upcoming"
+        "date": "2025-04-18",
+        "time": "19:40",
+        "player1": "Kushal and Adarsh",
+        "player2": "kumar Anurag and Vidit",
+        "status": "Today"
       },
       {
         "id": 48,
         "round": "Group Stage (Group B)",
-        "date": "2025-06-02",
-        "time": "17:00",
-        "player1": "Team B2",
-        "player2": "Team B6",
-        "status": "Upcoming"
+        "date": "2025-04-18",
+        "time": "19:40",
+        "player1": "Kushal and Adarsh",
+        "player2": "Raunak and Razzaq",
+        "status": "Today"
       },
       {
         "id": 49,
         "round": "Group Stage (Group B)",
-        "date": "2025-06-03",
-        "time": "17:00",
-        "player1": "Team B2",
-        "player2": "Team B7",
+        "date": "2025-04-19",
+        "time": "18:00",
+        "player1": "Kushal and Adarsh",
+        "player2": "Aryan Shukla and Pradyumn Attri",
         "status": "Upcoming"
       },
       {
         "id": 50,
         "round": "Group Stage (Group B)",
-        "date": "2025-06-04",
-        "time": "17:00",
-        "player1": "Team B2",
-        "player2": "Team B8",
-        "status": "Upcoming"
+        "date": "2025-04-19",
+        "time": "18:00",
+        "player1": "Vimlesh and Raman",
+        "player2": "Deepak and Sahil",
+        "status": "Today"
       },
       {
         "id": 51,
         "round": "Group Stage (Group B)",
-        "date": "2025-06-05",
-        "time": "17:00",
-        "player1": "Team B2",
-        "player2": "Team B9",
+        "date": "2025-04-19",
+        "time": "18:20",
+        "player1": "Vimlesh and Raman",
+        "player2": "Stanzin and Akash",
         "status": "Upcoming"
       },
       {
         "id": 52,
         "round": "Group Stage (Group B)",
-        "date": "2025-06-06",
-        "time": "17:00",
-        "player1": "Team B3",
-        "player2": "Team B4",
-        "status": "Upcoming"
+        "date": "2025-04-19",
+        "time": "18:20",
+        "player1": "Vimlesh and Raman",
+        "player2": "kumar Anurag and Vidit",
+        "status": "0-1"
       },
       {
         "id": 53,
         "round": "Group Stage (Group B)",
-        "date": "2025-06-07",
-        "time": "17:00",
-        "player1": "Team B3",
-        "player2": "Team B5",
+        "date": "2025-04-19",
+        "time": "18:40",
+        "player1": "Vimlesh and Raman",
+        "player2": "Raunak and Razzaq",
         "status": "Upcoming"
       },
       {
         "id": 54,
         "round": "Group Stage (Group B)",
-        "date": "2025-06-08",
-        "time": "17:00",
-        "player1": "Team B3",
-        "player2": "Team B6",
+        "date": "2025-04-19",
+        "time": "18:40",
+        "player1": "Vimlesh and Raman",
+        "player2": "Aryan Shukla and Pradyumn Attri",
         "status": "Upcoming"
       },
       {
         "id": 55,
         "round": "Group Stage (Group B)",
-        "date": "2025-06-09",
-        "time": "17:00",
-        "player1": "Team B3",
-        "player2": "Team B7",
+        "date": "2025-04-19",
+        "time": "19:00",
+        "player1": "Deepak and Sahil",
+        "player2": "Stanzin and Akash",
         "status": "Upcoming"
       },
       {
         "id": 56,
         "round": "Group Stage (Group B)",
-        "date": "2025-06-10",
-        "time": "17:00",
-        "player1": "Team B3",
-        "player2": "Team B8",
+        "date": "2025-04-19",
+        "time": "19:00",
+        "player1": "Deepak and Sahil",
+        "player2": "kumar Anurag and Vidit",
         "status": "Upcoming"
       },
       {
         "id": 57,
         "round": "Group Stage (Group B)",
-        "date": "2025-06-11",
-        "time": "17:00",
-        "player1": "Team B3",
-        "player2": "Team B9",
-        "status": "Upcoming"
+        "date": "2025-04-19",
+        "time": "19:20",
+        "player1": "Deepak and Sahil",
+        "player2": "Raunak and Razzaq",
+        "status": "1-0"
       },
       {
         "id": 58,
         "round": "Group Stage (Group B)",
-        "date": "2025-06-12",
-        "time": "17:00",
-        "player1": "Team B4",
-        "player2": "Team B5",
-        "status": "Upcoming"
+        "date": "2025-04-19",
+        "time": "19:20",
+        "player1": "Deepak and Sahil",
+        "player2": "Aryan Shukla and Pradyumn Attri",
+        "status": "Today"
       },
       {
         "id": 59,
         "round": "Group Stage (Group B)",
-        "date": "2025-06-13",
-        "time": "17:00",
-        "player1": "Team B4",
-        "player2": "Team B6",
-        "status": "Upcoming"
+        "date": "2025-04-19",
+        "time": "19:40",
+        "player1": "Stanzin and Akash",
+        "player2": "kumar Anurag and Vidit",
+        "status": "0-1"
       },
       {
         "id": 60,
         "round": "Group Stage (Group B)",
-        "date": "2025-06-14",
-        "time": "17:00",
-        "player1": "Team B4",
-        "player2": "Team B7",
+        "date": "2025-04-19",
+        "time": "19:40",
+        "player1": "Stanzin and Akash",
+        "player2": "Raunak and Razzaq",
         "status": "Upcoming"
       },
       {
         "id": 61,
         "round": "Group Stage (Group B)",
-        "date": "2025-06-15",
-        "time": "17:00",
-        "player1": "Team B4",
-        "player2": "Team B8",
+        "date": "2025-04-20",
+        "time": "18:00",
+        "player1": "Stanzin and Akash",
+        "player2": "Aryan Shukla and Pradyumn Attri",
         "status": "Upcoming"
       },
       {
         "id": 62,
         "round": "Group Stage (Group B)",
-        "date": "2025-06-16",
-        "time": "17:00",
-        "player1": "Team B4",
-        "player2": "Team B9",
+        "date": "2025-04-20",
+        "time": "18:00",
+        "player1": "kumar Anurag and Vidit",
+        "player2": "Raunak and Razzaq",
         "status": "Upcoming"
       },
       {
         "id": 63,
         "round": "Group Stage (Group B)",
-        "date": "2025-06-17",
-        "time": "17:00",
-        "player1": "Team B5",
-        "player2": "Team B6",
-        "status": "Upcoming"
+        "date": "2025-04-20",
+        "time": "18:20",
+        "player1": "kumar Anurag and Vidit",
+        "player2": "Aryan Shukla and Pradyumn Attri",
+        "status": "0-1"
       },
       {
         "id": 64,
         "round": "Group Stage (Group B)",
-        "date": "2025-06-18",
-        "time": "17:00",
-        "player1": "Team B5",
-        "player2": "Team B7",
+        "date": "2025-04-20",
+        "time": "18:20",
+        "player1": "Raunak and Razzaq",
+        "player2": "Aryan Shukla and Pradyumn Attri",
         "status": "Upcoming"
       },
       {
         "id": 65,
-        "round": "Group Stage (Group B)",
-        "date": "2025-06-19",
-        "time": "17:00",
-        "player1": "Team B5",
-        "player2": "Team B8",
-        "status": "Upcoming"
-      },
-      {
-        "id": 66,
-        "round": "Group Stage (Group B)",
-        "date": "2025-06-20",
-        "time": "17:00",
-        "player1": "Team B5",
-        "player2": "Team B9",
-        "status": "Upcoming"
-      },
-      {
-        "id": 67,
-        "round": "Group Stage (Group B)",
-        "date": "2025-06-21",
-        "time": "17:00",
-        "player1": "Team B6",
-        "player2": "Team B7",
-        "status": "Upcoming"
-      },
-      {
-        "id": 68,
-        "round": "Group Stage (Group B)",
-        "date": "2025-06-22",
-        "time": "17:00",
-        "player1": "Team B6",
-        "player2": "Team B8",
-        "status": "Upcoming"
-      },
-      {
-        "id": 69,
-        "round": "Group Stage (Group B)",
-        "date": "2025-06-23",
-        "time": "17:00",
-        "player1": "Team B6",
-        "player2": "Team B9",
-        "status": "Upcoming"
-      },
-      {
-        "id": 70,
-        "round": "Group Stage (Group B)",
-        "date": "2025-06-24",
-        "time": "17:00",
-        "player1": "Team B7",
-        "player2": "Team B8",
-        "status": "Upcoming"
-      },
-      {
-        "id": 71,
-        "round": "Group Stage (Group B)",
-        "date": "2025-06-25",
-        "time": "17:00",
-        "player1": "Team B7",
-        "player2": "Team B9",
-        "status": "Upcoming"
-      },
-      {
-        "id": 72,
-        "round": "Group Stage (Group B)",
-        "date": "2025-06-26",
-        "time": "17:00",
-        "player1": "Team B8",
-        "player2": "Team B9",
-        "status": "Upcoming"
-      },
-      {
-        "id": 73,
         "round": "Quarterfinals",
-        "date": "2025-06-27",
-        "time": "17:00",
+        "date": "2025-04-21",
+        "time": "18:00",
         "player1": "A1",
         "player2": "B4",
         "status": "Upcoming"
       },
       {
-        "id": 74,
+        "id": 66,
         "round": "Quarterfinals",
-        "date": "2025-06-28",
-        "time": "17:00",
+        "date": "2025-04-21",
+        "time": "18:00",
         "player1": "A2",
         "player2": "B3",
         "status": "Upcoming"
       },
       {
-        "id": 75,
+        "id": 67,
         "round": "Quarterfinals",
-        "date": "2025-06-29",
-        "time": "17:00",
+        "date": "2025-04-21",
+        "time": "18:20",
         "player1": "A3",
         "player2": "B2",
         "status": "Upcoming"
       },
       {
-        "id": 76,
+        "id": 68,
         "round": "Quarterfinals",
-        "date": "2025-06-30",
-        "time": "17:00",
+        "date": "2025-04-21",
+        "time": "18:20",
         "player1": "A4",
         "player2": "B1",
         "status": "Upcoming"
       },
       {
-        "id": 77,
+        "id": 69,
         "round": "Semifinals",
-        "date": "2025-07-01",
-        "time": "17:00",
+        "date": "2025-04-21",
+        "time": "18:40",
         "player1": "Winner QF1",
         "player2": "Winner QF3",
         "status": "Upcoming"
       },
       {
-        "id": 78,
+        "id": 70,
         "round": "Semifinals",
-        "date": "2025-07-02",
-        "time": "17:00",
+        "date": "2025-04-21",
+        "time": "18:40",
         "player1": "Winner QF2",
         "player2": "Winner QF4",
         "status": "Upcoming"
       },
       {
-        "id": 79,
+        "id": 71,
         "round": "Final",
-        "date": "2025-07-03",
-        "time": "17:00",
+        "date": "2025-04-21",
+        "time": "19:00",
         "player1": "Winner SF1",
         "player2": "Winner SF2",
         "status": "Upcoming"
       }
+    ],
+    pointsTableA: [
+      {
+        "team": "Mohit and Amit",
+        "matchesPlayed": 7,
+        "wins": 7,
+        "losses": 0,
+        "points": 14,
+        "group": "B"
+      },
+      {
+        "team": "Deepak and sahil",
+        "matchesPlayed": 3,
+        "wins": 2,
+        "losses": 1,
+        "points": 4,
+        "group": "B"
+      },
+      {
+        "team": "kumar Anurag and Vidit Verma",
+        "matchesPlayed": 4,
+        "wins": 2,
+        "losses": 2,
+        "points": 4,
+        "group": "B"
+      },
+      {
+        "team": "Aryan Shukla and Pradyumn Attri",
+        "matchesPlayed": 2,
+        "wins": 1,
+        "losses": 1,
+        "points": 2,
+        "group": "B"
+      },
+      {
+        "team": "Vimlesh and Raman",
+        "matchesPlayed": 3,
+        "wins": 1,
+        "losses": 2,
+        "points": 2,
+        "group": "B"
+      },
+
+      {
+        "team": "Stanzin and Akash",
+        "matchesPlayed": 2,
+        "wins": 0,
+        "losses": 2,
+        "points": 0,
+        "group": "B"
+      },
+
+      {
+        "team": "Raunak and Razzaq",
+        "matchesPlayed": 2,
+        "wins": 0,
+        "losses": 2,
+        "points": 0,
+        "group": "B"
+      },
+      {
+        "team": "Kushal and Adarsh",
+        "matchesPlayed": 3,
+        "wins": 0,
+        "losses": 3,
+        "points": 0,
+        "group": "B"
+      },
+
+
+
+
+    ],
+    pointsTableB: [
+      {
+        "rank": 1,
+        "team": "Arpit Mahajan and Benoy",
+        "matchesPlayed": 7,
+        "wins": 7,
+        "losses": 0,
+        "points": 14,
+        "group": "A"
+      },
+      {
+        "rank": 2,
+        "team": "Tumisang and Aryan Yadav",
+        "matchesPlayed": 5,
+        "wins": 4,
+        "losses": 1,
+        "points": 8,
+        "group": "A"
+      },
+      {
+        "rank": 3,
+        "team": "Harsh and Ranjeet",
+        "matchesPlayed": 6,
+        "wins": 2,
+        "losses": 4,
+        "points": 4,
+        "group": "A"
+      },
+      {
+        "rank": 4,
+        "team": "Saksham and Gaurav",
+        "matchesPlayed": 4,
+        "wins": 2,
+        "losses": 2,
+        "points": 4,
+        "group": "A"
+      },
+      {
+        "rank": 5,
+        "team": "Suyash and Soumya",
+        "matchesPlayed": 4,
+        "wins": 1,
+        "losses": 3,
+        "points": 2,
+        "group": "A"
+      },
+      {
+        "rank": 6,
+        "team": "Jayrama and Pratham",
+        "matchesPlayed": 5,
+        "wins": 1,
+        "losses": 4,
+        "points": 2,
+        "group": "A"
+      },
+      {
+        "rank": 7,
+        "team": "Razz Sehwag and Naman",
+        "matchesPlayed": 2,
+        "wins": 1,
+        "losses": 1,
+        "points": 2,
+        "group": "A"
+      },
+      {
+        "rank": 8,
+        "team": "Arpit Pandey and Nishant",
+        "matchesPlayed": 3,
+        "wins": 1,
+        "losses": 2,
+        "points": 2,
+        "group": "A"
+      },
+      {
+        "rank": 9,
+        "team": "Ram and Jatin",
+        "matchesPlayed": 2,
+        "wins": 0,
+        "losses": 2,
+        "points": 0,
+        "group": "A"
+      }
+
     ]
+
   },
   tableTennis: {
     id: "tableTennis",
@@ -825,7 +912,74 @@ export const sports = {
       { id: "22", name: "Akash Chahar", room: "122", contact: "8077993593" },
       { id: "23", name: "Kushal", room: "11", contact: "7011412308" }
     ],
-    fixtures: []
+    fixtures: [
+      {
+        "id": 1,
+        "round": "Q1",
+        "date": "2025-04-15",
+        "player1": "Arpit Pandey",
+        "player2": "Ajay Pal",
+        "status": "0-1",
+        "winner": "Ajay Pal"
+      },
+      {
+        "id": 2,
+        "round": "Q2",
+        "date": "2025-04-15",
+        "player1": "Gaurav",
+        "player2": "Amit Kumar",
+        "status": "0-1",
+        "winner": "Amit Kumar"
+      },
+      {
+        "id": 3,
+        "round": "Q3",
+        "date": "2025-04-15",
+        "player1": "Arpit Mahajan",
+        "player2": "Stanzin K",
+        "status": "1-0",
+        "winner": "Arpit Mahajan"
+      },
+      {
+        "id": 4,
+        "round": "Q4",
+        "date": "2025-04-15",
+        "player1": "Aryan Shukla",
+        "player2": "Saalim",
+        "status": "0-1",
+        "winner": "Saalim"
+      },
+      {
+        "id": 5,
+        "round": "SF1",
+        "date": "2025-04-16",
+        "player1": "Ajay Pal",
+        "player2": "Saalim",
+        "status": "TBD",
+        "winner": "TBD"
+      },
+      {
+        "id": 6,
+        "round": "SF2",
+        "date": "2025-04-16",
+        "player1": "Arpit Mahajan",
+        "player2": "Amit Kumar",
+        "status": "TBD",
+        "winner": "TBD"
+      },
+      {
+        "id": 7,
+        "round": "Final",
+        "date": "2025-04-16",
+        "player1": "TBD",
+        "player2": "TBD",
+        "status": "TBD",
+        "winner": "TBD"
+      }
+
+    ],
+    pointsTableA: [],
+    pointsTableB: [],
   },
   chess: {
     id: "chess",
@@ -848,7 +1002,9 @@ export const sports = {
       { id: "14", name: "Bairu Manikanta Goud", room: "8", contact: "8184862622" },
       { id: "15", name: "Harsh chauhan", room: "106", contact: "8755399775" }
     ],
-    fixtures: []
+    fixtures: [],
+    pointsTableA: [],
+    pointsTableB: [],
   },
   carrom: {
     id: "carrom",
@@ -872,7 +1028,9 @@ export const sports = {
       { id: "15", name: "Nishant Chaudhary", room: "85", contact: "7456884672" },
       { id: "16", name: "Kushal", room: "11", contact: "7011412308" }
     ],
-    fixtures: []
+    fixtures: [],
+    pointsTableA: [],
+    pointsTableB: [],
   },
   athletics: {
     id: "athletics",
@@ -907,7 +1065,9 @@ export const sports = {
       { id: "26", name: "Nishant Chaudhary", room: "85", contact: "7456884672", event: "Both" },
       { id: "27", name: "Kushal", room: "11", contact: "7011412308", event: "Both" }
     ],
-    fixtures: []
+    fixtures: [],
+    pointsTableA: [],
+    pointsTableB: [],
   },
   volleyball: {
     id: "volleyball",
@@ -931,7 +1091,9 @@ export const sports = {
       { id: "15", name: "Arpit Mahajan", room: "17", contact: "8826880054" },
       { id: "16", name: "Kushal", room: "11", contact: "7011412308" }
     ],
-    fixtures: []
+    fixtures: [],
+    pointsTableA: [],
+    pointsTableB: [],
   },
   tugOfWar: {
     id: "tugOfWar",
@@ -964,7 +1126,9 @@ export const sports = {
       { id: "24", name: "Kushal", room: "11", contact: "7011412308" },
       { id: "25", name: "Harsh", room: "86", contact: "9119787569" }
     ],
-    fixtures: []
+    fixtures: [],
+    pointsTableA: [],
+    pointsTableB: [],
   },
   ludo: {
     id: "ludo",
@@ -1010,7 +1174,9 @@ export const sports = {
       { id: "37", name: "Harsh", room: "86", contact: "9119787569" },
       { id: "38", name: "Mohit", room: "44", contact: "" }
     ],
-    fixtures: []
+    fixtures: [],
+    pointsTableA: [],
+    pointsTableB: [],
   },
   armWrestling: {
     id: "armWrestling",
@@ -1026,6 +1192,8 @@ export const sports = {
       { id: "7", name: "MADUGULA JAYARAM", room: "103A", contact: "9494848730" },
       { id: "8", name: "Nishant Chaudhary", room: "85", contact: "7456884672" }
     ],
-    fixtures: []
+    fixtures: [],
+    pointsTableA: [],
+    pointsTableB: [],
   }
 };

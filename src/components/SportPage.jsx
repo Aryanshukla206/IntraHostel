@@ -6,6 +6,71 @@ function SportPage({ sport }) {
         <p className="text-xl text-gray-300  mt-1 ">{sport.description}</p>
       </div>
 
+      <section className="mb-12 text-center backdrop-blur-md rounded-2xl bg-white/20 p-4">
+        <h2 className="text-white text-2xl font-extrabold mb-6">Points Table A</h2>
+        <div className="overflow-x-auto rounded-lg shadow-md">
+          <table className="w-full border-collapse min-w-[700px]">
+            <thead>
+              <tr>
+                <th className="p-4 text-left border-b border-gray-200 font-extrabold text-gray-900">S.No</th>
+                <th className="p-4 text-left border-b border-gray-200 font-extrabold text-gray-900">Team</th>
+                <th className="p-4 text-left border-b border-gray-200 font-extrabold text-gray-900">Group</th>
+                <th className="p-4 text-left border-b border-gray-200 font-extrabold text-gray-900">Played</th>
+                <th className="p-4 text-left border-b border-gray-200 font-extrabold text-gray-900">Wins</th>
+                <th className="p-4 text-left border-b border-gray-200 font-extrabold text-gray-900">Losses</th>
+                <th className="p-4 text-left border-b border-gray-200 font-extrabold text-gray-900">Points</th>
+              </tr>
+            </thead>
+            <tbody>
+              {sport.pointsTableB.map((team, index) => (
+                <tr key={index} className="text-white">
+                  <td className="p-4 text-left border-b border-gray-200">{index + 1}</td>
+                  <td className="p-4 text-left border-b border-gray-200">{team.team}</td>
+                  <td className="p-4 text-left border-b border-gray-200">{team.group}</td>
+                  <td className="p-4 text-left border-b border-gray-200">{team.matchesPlayed}</td>
+                  <td className="p-4 text-left border-b border-gray-200">{team.wins}</td>
+                  <td className="p-4 text-left border-b border-gray-200">{team.losses}</td>
+                  <td className="p-4 text-left border-b border-gray-200">{team.points}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section className="mb-12 text-center backdrop-blur-md rounded-2xl bg-white/20 p-4">
+        <h2 className="text-white text-2xl font-extrabold mb-6">Points Table B</h2>
+        <div className="overflow-x-auto rounded-lg shadow-md">
+          <table className="w-full border-collapse min-w-[700px]">
+            <thead>
+              <tr>
+                <th className="p-4 text-left border-b border-gray-200 font-extrabold text-gray-900">S.No</th>
+                <th className="p-4 text-left border-b border-gray-200 font-extrabold text-gray-900">Team</th>
+                <th className="p-4 text-left border-b border-gray-200 font-extrabold text-gray-900">Group</th>
+                <th className="p-4 text-left border-b border-gray-200 font-extrabold text-gray-900">Played</th>
+                <th className="p-4 text-left border-b border-gray-200 font-extrabold text-gray-900">Wins</th>
+                <th className="p-4 text-left border-b border-gray-200 font-extrabold text-gray-900">Losses</th>
+                <th className="p-4 text-left border-b border-gray-200 font-extrabold text-gray-900">Points</th>
+              </tr>
+            </thead>
+            <tbody>
+              {sport.pointsTableA.map((team, index) => (
+                <tr key={index} className="text-white">
+                  <td className="p-4 text-left border-b border-gray-200">{index + 1}</td>
+                  <td className="p-4 text-left border-b border-gray-200">{team.team}</td>
+                  <td className="p-4 text-left border-b border-gray-200">{team.group}</td>
+                  <td className="p-4 text-left border-b border-gray-200">{team.matchesPlayed}</td>
+                  <td className="p-4 text-left border-b border-gray-200">{team.wins}</td>
+                  <td className="p-4 text-left border-b border-gray-200">{team.losses}</td>
+                  <td className="p-4 text-left border-b border-gray-200">{team.points}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+
       <section className="mb-12 text-center backdrop-blur-md rounded-2xl bg-white/20 p-4 ">
         <h2 className="text-white text-2xl font-extrabold  mb-6">Participants</h2>
         <div className="overflow-x-auto  rounded-lg shadow-md">
@@ -40,6 +105,7 @@ function SportPage({ sport }) {
           <table className="w-full  border-collapse min-w-[600px]">
             <thead>
               <tr>
+                <th className="p-4 text-left border-b border-gray-200  font-extrabold text-gray-900">S.no</th>
                 <th className="p-4 text-left border-b border-gray-200  font-extrabold text-gray-900">Round</th>
                 <th className="p-4 text-left border-b border-gray-200  font-extrabold text-gray-900">Date</th>
                 <th className="p-4 text-left border-b border-gray-200  font-extrabold text-gray-900">Time</th>
@@ -51,6 +117,7 @@ function SportPage({ sport }) {
             <tbody>
               {sport.fixtures.map((match) =>
                 <tr key={match.id} className=" cursor-pointer text-white">
+                  <td className="p-4 text-left border-b border-gray-200">{match.id}</td>
                   <td className="p-4 text-left border-b border-gray-200">{match.round}</td>
                   <td className="p-4 text-left border-b border-gray-200">{match.date}</td>
                   <td className="p-4 text-left border-b border-gray-200">{match.time}</td>
