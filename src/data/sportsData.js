@@ -137,7 +137,7 @@ export const sports = {
         "time": "7:30",
         "player1": "Harsh & Ranjeet",
         "player2": "Ram & Jatin",
-        "status": "Today"
+        "status": "1-0"
       },
       {
         "id": 7,
@@ -155,7 +155,7 @@ export const sports = {
         "time": "19:00",
         "player1": "Harsh & Ranjeet",
         "player2": "Arpit Pandey & Nishant",
-        "status": "Upcoming"
+        "status": "0-1"
       },
       {
         "id": 9,
@@ -182,7 +182,7 @@ export const sports = {
         "time": "19:40",
         "player1": "Suyash & Soumya",
         "player2": "Raj Sehwag & Naman",
-        "status": "Today"
+        "status": "0-1"
       },
       {
         "id": 12,
@@ -191,7 +191,7 @@ export const sports = {
         "time": "6:20",
         "player1": "Suyash & Soumya",
         "player2": "Tumisang & Aryan Yadav",
-        "status": "Today"
+        "status": "0-1"
       },
       {
         "id": 13,
@@ -209,7 +209,7 @@ export const sports = {
         "time": "18:00",
         "player1": "Suyash & Soumya",
         "player2": "Saksham & Gaurav",
-        "status": "Today"
+        "status": "1-0"
       },
       {
         "id": 15,
@@ -218,7 +218,7 @@ export const sports = {
         "time": "18:20",
         "player1": "Suyash & Soumya",
         "player2": "Arpit Pandey & Nishant",
-        "status": "Today"
+        "status": "0-1"
       },
       {
         "id": 16,
@@ -245,7 +245,7 @@ export const sports = {
         "time": "18:40",
         "player1": "Jayaram & Pratham",
         "player2": "Tumisang & Aryan Yadav",
-        "status": "Today"
+        "status": "0-1"
       },
       {
         "id": 19,
@@ -281,7 +281,7 @@ export const sports = {
         "time": "19:20",
         "player1": "Arpit Mahajan & Benoy",
         "player2": "Raj Sehwag & Naman",
-        "status": "Upcoming"
+        "status": "1-0"
       },
       {
         "id": 23,
@@ -344,7 +344,7 @@ export const sports = {
         "time": "18:40",
         "player1": "Raj Sehwag & Naman",
         "player2": "Saksham & Gaurav",
-        "status": "Upcoming"
+        "status": "1-0"
       },
       {
         "id": 30,
@@ -353,7 +353,7 @@ export const sports = {
         "time": "18:40",
         "player1": "Raj Sehwag & Naman",
         "player2": "Arpit Pandey & Nishant",
-        "status": "Upcoming"
+        "status": "Today"
       },
       {
         "id": 31,
@@ -362,7 +362,7 @@ export const sports = {
         "time": "19:00",
         "player1": "Tumisang & Aryan Yadav",
         "player2": "Ram & Jatin",
-        "status": "Upcoming"
+        "status": "1-0"
       },
       {
         "id": 32,
@@ -389,7 +389,7 @@ export const sports = {
         "time": "19:20",
         "player1": "Ram & Jatin",
         "player2": "Saksham & Gaurav",
-        "status": "Upcoming"
+        "status": "1-0"
       },
       {
         "id": 35,
@@ -398,7 +398,7 @@ export const sports = {
         "time": "19:40",
         "player1": "Ram & Jatin",
         "player2": "Arpit Pandey & Nishant",
-        "status": "Upcoming"
+        "status": "Today"
       },
       {
         "id": 36,
@@ -407,7 +407,7 @@ export const sports = {
         "time": "19:40",
         "player1": "Saksham & Gaurav",
         "player2": "Arpit Pandey & Nishant",
-        "status": "Upcoming"
+        "status": "0-1"
       },
       {
         "id": 37,
@@ -506,7 +506,7 @@ export const sports = {
         "time": "19:40",
         "player1": "Kushal and Adarsh",
         "player2": "kumar Anurag and Vidit",
-        "status": "Today"
+        "status": "0-1"
       },
       {
         "id": 48,
@@ -524,7 +524,7 @@ export const sports = {
         "time": "18:00",
         "player1": "Kushal and Adarsh",
         "player2": "Aryan Shukla and Pradyumn Attri",
-        "status": "Upcoming"
+        "status": "0-1"
       },
       {
         "id": 50,
@@ -533,7 +533,7 @@ export const sports = {
         "time": "18:00",
         "player1": "Vimlesh and Raman",
         "player2": "Deepak and Sahil",
-        "status": "Today"
+        "status": "0-1"
       },
       {
         "id": 51,
@@ -542,7 +542,7 @@ export const sports = {
         "time": "18:20",
         "player1": "Vimlesh and Raman",
         "player2": "Stanzin and Akash",
-        "status": "Upcoming"
+        "status": "1-0"
       },
       {
         "id": 52,
@@ -569,7 +569,7 @@ export const sports = {
         "time": "18:40",
         "player1": "Vimlesh and Raman",
         "player2": "Aryan Shukla and Pradyumn Attri",
-        "status": "Upcoming"
+        "status": "0-1"
       },
       {
         "id": 55,
@@ -578,7 +578,7 @@ export const sports = {
         "time": "19:00",
         "player1": "Deepak and Sahil",
         "player2": "Stanzin and Akash",
-        "status": "Upcoming"
+        "status": "1-0"
       },
       {
         "id": 56,
@@ -587,7 +587,7 @@ export const sports = {
         "time": "19:00",
         "player1": "Deepak and Sahil",
         "player2": "kumar Anurag and Vidit",
-        "status": "Upcoming"
+        "status": "1-0"
       },
       {
         "id": 57,
@@ -605,7 +605,7 @@ export const sports = {
         "time": "19:20",
         "player1": "Deepak and Sahil",
         "player2": "Aryan Shukla and Pradyumn Attri",
-        "status": "Today"
+        "status": "1-0"
       },
       {
         "id": 59,
@@ -623,7 +623,7 @@ export const sports = {
         "time": "19:40",
         "player1": "Stanzin and Akash",
         "player2": "Raunak and Razzaq",
-        "status": "Upcoming"
+        "status": "Today"
       },
       {
         "id": 61,
@@ -632,7 +632,7 @@ export const sports = {
         "time": "18:00",
         "player1": "Stanzin and Akash",
         "player2": "Aryan Shukla and Pradyumn Attri",
-        "status": "Upcoming"
+        "status": "0-1"
       },
       {
         "id": 62,
@@ -641,7 +641,7 @@ export const sports = {
         "time": "18:00",
         "player1": "kumar Anurag and Vidit",
         "player2": "Raunak and Razzaq",
-        "status": "Upcoming"
+        "status": "Today"
       },
       {
         "id": 63,
@@ -659,7 +659,7 @@ export const sports = {
         "time": "18:20",
         "player1": "Raunak and Razzaq",
         "player2": "Aryan Shukla and Pradyumn Attri",
-        "status": "Upcoming"
+        "status": "0-1"
       },
       {
         "id": 65,
@@ -703,7 +703,7 @@ export const sports = {
         "date": "2025-04-21",
         "time": "18:40",
         "player1": "Winner QF1",
-        "player2": "Winner QF3",
+        "player2": "Winner QF2",
         "status": "Upcoming"
       },
       {
@@ -711,7 +711,7 @@ export const sports = {
         "round": "Semifinals",
         "date": "2025-04-21",
         "time": "18:40",
-        "player1": "Winner QF2",
+        "player1": "Winner QF3",
         "player2": "Winner QF4",
         "status": "Upcoming"
       },
@@ -736,56 +736,58 @@ export const sports = {
       },
       {
         "team": "Deepak and sahil",
-        "matchesPlayed": 3,
-        "wins": 2,
+        "matchesPlayed": 7,
+        "wins": 6,
         "losses": 1,
-        "points": 4,
-        "group": "B"
-      },
-      {
-        "team": "kumar Anurag and Vidit Verma",
-        "matchesPlayed": 4,
-        "wins": 2,
-        "losses": 2,
-        "points": 4,
+        "points": 12,
         "group": "B"
       },
       {
         "team": "Aryan Shukla and Pradyumn Attri",
-        "matchesPlayed": 2,
-        "wins": 1,
-        "losses": 1,
-        "points": 2,
+        "matchesPlayed": 7,
+        "wins": 5,
+        "losses": 2,
+        "points": 10,
         "group": "B"
       },
       {
+        "team": "kumar Anurag and Vidit Verma",
+        "matchesPlayed": 6,
+        "wins": 3,
+        "losses": 3,
+        "points": 6,
+        "group": "B"
+      },
+
+      {
         "team": "Vimlesh and Raman",
-        "matchesPlayed": 3,
-        "wins": 1,
-        "losses": 2,
-        "points": 2,
+        "matchesPlayed": 6,
+        "wins": 2,
+        "losses": 4,
+        "points": 4,
         "group": "B"
       },
 
       {
         "team": "Stanzin and Akash",
-        "matchesPlayed": 2,
+        "matchesPlayed": 5,
         "wins": 0,
-        "losses": 2,
+        "losses": 5,
         "points": 0,
         "group": "B"
       },
 
+
       {
-        "team": "Raunak and Razzaq",
-        "matchesPlayed": 2,
+        "team": "Kushal and Adarsh",
+        "matchesPlayed": 5,
         "wins": 0,
-        "losses": 2,
+        "losses": 5,
         "points": 0,
         "group": "B"
       },
       {
-        "team": "Kushal and Adarsh",
+        "team": "Raunak and Razzaq",
         "matchesPlayed": 3,
         "wins": 0,
         "losses": 3,
@@ -801,51 +803,72 @@ export const sports = {
       {
         "rank": 1,
         "team": "Arpit Mahajan and Benoy",
-        "matchesPlayed": 7,
-        "wins": 7,
+        "matchesPlayed": 8,
+        "wins": 8,
         "losses": 0,
-        "points": 14,
+        "points": 16,
         "group": "A"
       },
       {
         "rank": 2,
         "team": "Tumisang and Aryan Yadav",
-        "matchesPlayed": 5,
-        "wins": 4,
+        "matchesPlayed": 8,
+        "wins": 7,
         "losses": 1,
+        "points": 14,
+        "group": "A"
+      },
+      {
+        "rank": 8,
+        "team": "Arpit Pandey and Nishant",
+        "matchesPlayed": 6,
+        "wins": 4,
+        "losses": 2,
         "points": 8,
+        "group": "A"
+      },
+      {
+        "rank": 7,
+        "team": "Razz Sehwag and Naman",
+        "matchesPlayed": 5,
+        "wins": 3,
+        "losses": 2,
+        "points": 6,
         "group": "A"
       },
       {
         "rank": 3,
         "team": "Harsh and Ranjeet",
-        "matchesPlayed": 6,
-        "wins": 2,
-        "losses": 4,
-        "points": 4,
+        "matchesPlayed": 8,
+        "wins": 3,
+        "losses": 5,
+        "points": 6,
         "group": "A"
       },
       {
         "rank": 4,
         "team": "Saksham and Gaurav",
-        "matchesPlayed": 4,
+        "matchesPlayed": 8,
         "wins": 2,
-        "losses": 2,
+        "losses": 6,
         "points": 4,
         "group": "A"
       },
       {
         "rank": 5,
         "team": "Suyash and Soumya",
-        "matchesPlayed": 4,
-        "wins": 1,
-        "losses": 3,
-        "points": 2,
+        "matchesPlayed": 8,
+        "wins": 2,
+        "losses": 6,
+        "points": 4,
         "group": "A"
       },
+
+
+
       {
-        "rank": 6,
-        "team": "Jayrama and Pratham",
+        "rank": 9,
+        "team": "Ram and Jatin",
         "matchesPlayed": 5,
         "wins": 1,
         "losses": 4,
@@ -853,32 +876,14 @@ export const sports = {
         "group": "A"
       },
       {
-        "rank": 7,
-        "team": "Razz Sehwag and Naman",
-        "matchesPlayed": 2,
+        "rank": 6,
+        "team": "Jayrama and Pratham",
+        "matchesPlayed": 6,
         "wins": 1,
-        "losses": 1,
+        "losses": 5,
         "points": 2,
         "group": "A"
       },
-      {
-        "rank": 8,
-        "team": "Arpit Pandey and Nishant",
-        "matchesPlayed": 3,
-        "wins": 1,
-        "losses": 2,
-        "points": 2,
-        "group": "A"
-      },
-      {
-        "rank": 9,
-        "team": "Ram and Jatin",
-        "matchesPlayed": 2,
-        "wins": 0,
-        "losses": 2,
-        "points": 0,
-        "group": "A"
-      }
 
     ]
 
@@ -955,8 +960,8 @@ export const sports = {
         "date": "2025-04-16",
         "player1": "Ajay Pal",
         "player2": "Saalim",
-        "status": "TBD",
-        "winner": "TBD"
+        "status": "1-0",
+        "winner": "Ajay Pal"
       },
       {
         "id": 6,
@@ -964,17 +969,17 @@ export const sports = {
         "date": "2025-04-16",
         "player1": "Arpit Mahajan",
         "player2": "Amit Kumar",
-        "status": "TBD",
-        "winner": "TBD"
+        "status": "1-0",
+        "winner": "Arpit Mahajan"
       },
       {
         "id": 7,
         "round": "Final",
         "date": "2025-04-16",
-        "player1": "TBD",
-        "player2": "TBD",
-        "status": "TBD",
-        "winner": "TBD"
+        "player1": "Arpit Mahajan",
+        "player2": "Ajay Pal",
+        "status": "1-0",
+        "winner": "Arpit Mahajan"
       }
 
     ],
