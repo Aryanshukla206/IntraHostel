@@ -1007,7 +1007,138 @@ export const sports = {
       { id: "14", name: "Bairu Manikanta Goud", room: "8", contact: "8184862622" },
       { id: "15", name: "Harsh chauhan", room: "106", contact: "8755399775" }
     ],
-    fixtures: [],
+    fixtures: [
+      {
+        "id": 2,
+        "round": "Pre-Quarterfinal",
+        "date": "2025-04-18",
+        "player1": "MADUGULA JAYARAM",
+        "player2": "Mehul singh",
+        "status": "Scheduled"
+      },
+      {
+        "id": 3,
+        "round": "Pre-Quarterfinal",
+        "date": "2025-04-18",
+        "player1": "Saksham Rai",
+        "player2": "Harsh chauhan",
+        "status": "Scheduled"
+      },
+      {
+        "id": 4,
+        "round": "Pre-Quarterfinal",
+        "date": "2025-04-18",
+        "player1": "Prashant",
+        "player2": "Bairu Manikanta Goud",
+        "status": "Scheduled"
+      },
+      {
+        "id": 5,
+        "round": "Pre-Quarterfinal",
+        "date": "2025-04-18",
+        "player1": "Aryan Shukla",
+        "player2": "Soumya Ranjan Hota",
+        "status": "1-0"
+      },
+      {
+        "id": 6,
+        "round": "Pre-Quarterfinal",
+        "date": "2025-04-18",
+        "player1": "DEEPAK SAH",
+        "player2": "Aashish Yadav",
+        "status": "1-0"
+      },
+      {
+        "id": 7,
+        "round": "Pre-Quarterfinal",
+        "date": "2025-04-18",
+        "player1": "Raman Kumar",
+        "player2": "Suyash Shekhar",
+        "status": "Scheduled"
+      },
+      {
+        "id": 8,
+        "round": "Pre-Quarterfinal",
+        "date": "2025-04-18",
+        "player1": "Ram Gurjar",
+        "player2": "Aryan Yadav",
+        "status": "Scheduled"
+      },
+      {
+        "id": 9,
+        "round": "Pre-Quarterfinal",
+        "date": "2025-04-18",
+        "player1": "Ranjeet",
+        "player2": "Arpit Pandey",
+        "status": "0-1"
+      },
+      {
+        "id": 10,
+        "round": "Quarterfinal",
+        "date": "2025-04-18",
+        "player1": "Winner of Match 1",
+        "player2": "Winner of Match 2",
+        "status": "TBD",
+        "winner": ""
+      },
+      {
+        "id": 11,
+        "round": "Quarterfinal",
+        "date": "2025-04-18",
+        "player1": "Winner of Match 3",
+        "player2": "Winner of Match 4",
+        "status": "TBD",
+        "winner": ""
+      },
+      {
+        "id": 12,
+        "round": "Quarterfinal",
+        "date": "2025-04-18",
+        "player1": "Winner of Match 5",
+        "player2": "Winner of Match 6",
+        "status": "TBD",
+        "winner": ""
+      },
+      {
+        "id": 13,
+        "round": "Quarterfinal",
+        "date": "2025-04-19",
+        "player1": "Winner of Match 7",
+        "player2": "Winner of Match 8",
+        "status": "TBD",
+        "winner": ""
+      },
+      {
+        "id": 14,
+        "round": "Semifinal",
+        "date": "2025-04-19",
+        "player1": "Winner of QF1",
+        "player2": "Winner of QF2",
+        "status": "TBD",
+        "winner": ""
+      },
+      {
+        "id": 15,
+        "round": "Semifinal",
+        "date": "2025-04-19",
+        "player1": "Winner of QF3",
+        "player2": "Winner of QF4",
+        "status": "TBD",
+        "winner": ""
+      },
+      {
+        "id": 16,
+        "round": "Final",
+        "date": "2025-04-20",
+        "player1": "Winner of SF1",
+        "player2": "Winner of SF2",
+        "status": "TBD",
+        "winner": ""
+      },
+
+
+    ]
+    ,
     pointsTableA: [],
     pointsTableB: [],
   },
@@ -1020,20 +1151,155 @@ export const sports = {
       { id: "2", name: "Ashish Pal", room: "24A", contact: "7060713362" },
       { id: "3", name: "Prabhakar", room: "114", contact: "6307347793" },
       { id: "4", name: "DEEPAK SAH", room: "26", contact: "6396444461" },
-      { id: "5", name: "Akhilesh", room: "83", contact: "9452571812" },
       { id: "6", name: "Jatin Prajapati", room: "130", contact: "9580838327" },
       { id: "7", name: "Sajal Patel", room: "128", contact: "6387900546" },
       { id: "8", name: "MADUGULA JAYARAM", room: "103A", contact: "9494848730" },
-      { id: "9", name: "Akhilesh", room: "83", contact: "9452571812" },
+      { id: "9", name: "", room: "83", contact: "9452571812" },
       { id: "10", name: "Adarsh Choudhury", room: "12", contact: "6370434967" },
       { id: "11", name: "Ranjeet", room: "136", contact: "8959403215" },
-      { id: "12", name: "Sajal Patel", room: "128", contact: "6387900546" },
       { id: "13", name: "Rachagorla Naveen Kumar", room: "75", contact: "7207130879" },
       { id: "14", name: "Bairu Manikanta Goud", room: "8", contact: "8184862622" },
       { id: "15", name: "Nishant Chaudhary", room: "85", contact: "7456884672" },
-      { id: "16", name: "Kushal", room: "11", contact: "7011412308" }
+      { id: "16", name: "Kushal", room: "11", contact: "7011412308" },
+      { id: "9", name: "Vidit Verma", room: "35", contact: "xxxxxxxxx" },
     ],
-    fixtures: [],
+    fixtures: [
+      {
+        "id": 1,
+        "round": "Pre-Quarterfinal",
+        "date": "2025-04-15",
+        "player1": "Soumya Ranjan Hota",
+        "player2": "Bairu Manikanta Goud",
+        "status": "0-0",
+        "winner": null
+      },
+      {
+        "id": 2,
+        "round": "Pre-Quarterfinal",
+        "date": "2025-04-15",
+        "player1": "Ashish Pal",
+        "player2": "Nishant Chaudhary",
+        "status": "0-0",
+        "winner": null
+      },
+      {
+        "id": 3,
+        "round": "Pre-Quarterfinal",
+        "date": "2025-04-15",
+        "player1": "Prabhakar",
+        "player2": "Kushal",
+        "status": "0-0",
+        "winner": null
+      },
+      {
+        "id": 4,
+        "round": "Pre-Quarterfinal",
+        "date": "2025-04-15",
+        "player1": "DEEPAK SAH",
+        "player2": "Ranjeet",
+        "status": "0-0",
+        "winner": null
+      },
+      {
+        "id": 5,
+        "round": "Pre-Quarterfinal",
+        "date": "2025-04-16",
+        "player1": "Akhilesh (1)",
+        "player2": "MADUGULA JAYARAM",
+        "status": "0-0",
+        "winner": null
+      },
+      {
+        "id": 6,
+        "round": "Pre-Quarterfinal",
+        "date": "2025-04-16",
+        "player1": "Jatin Prajapati",
+        "player2": "Adarsh Choudhury",
+        "status": "0-0",
+        "winner": null
+      },
+      {
+        "id": 7,
+        "round": "Pre-Quarterfinal",
+        "date": "2025-04-16",
+        "player1": "Sajal Patel (1)",
+        "player2": "Rachagorla Naveen Kumar",
+        "status": "0-0",
+        "winner": null
+      },
+      {
+        "id": 8,
+        "round": "Pre-Quarterfinal",
+        "date": "2025-04-16",
+        "player1": "Sajal Patel (2)",
+        "player2": "Akhilesh (2)",
+        "status": "0-0",
+        "winner": null
+      },
+      {
+        "id": 9,
+        "round": "Quarterfinal",
+        "date": "2025-04-17",
+        "player1": "Winner of Match 1",
+        "player2": "Winner of Match 2",
+        "status": "0-0",
+        "winner": null
+      },
+      {
+        "id": 10,
+        "round": "Quarterfinal",
+        "date": "2025-04-17",
+        "player1": "Winner of Match 3",
+        "player2": "Winner of Match 4",
+        "status": "0-0",
+        "winner": null
+      },
+      {
+        "id": 11,
+        "round": "Quarterfinal",
+        "date": "2025-04-18",
+        "player1": "Winner of Match 5",
+        "player2": "Winner of Match 6",
+        "status": "0-0",
+        "winner": null
+      },
+      {
+        "id": 12,
+        "round": "Quarterfinal",
+        "date": "2025-04-18",
+        "player1": "Winner of Match 7",
+        "player2": "Winner of Match 8",
+        "status": "0-0",
+        "winner": null
+      },
+      {
+        "id": 13,
+        "round": "Semifinal",
+        "date": "2025-04-19",
+        "player1": "Winner of Match 9",
+        "player2": "Winner of Match 10",
+        "status": "0-0",
+        "winner": null
+      },
+      {
+        "id": 14,
+        "round": "Semifinal",
+        "date": "2025-04-19",
+        "player1": "Winner of Match 11",
+        "player2": "Winner of Match 12",
+        "status": "0-0",
+        "winner": null
+      },
+      {
+        "id": 15,
+        "round": "Final",
+        "date": "2025-04-20",
+        "player1": "Winner of Match 13",
+        "player2": "Winner of Match 14",
+        "status": "0-0",
+        "winner": null
+      }
+    ],
     pointsTableA: [],
     pointsTableB: [],
   },
