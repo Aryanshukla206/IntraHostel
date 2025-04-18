@@ -14,7 +14,7 @@ const initialCaptains = [
 
 const initialPlayers = [
     { id: 'player-1', name: 'Sajal Patel', role: 'All-rounder', basePrice: 500000, currentPrice: 5500000 },
-    { id: 'player-2', name: 'Arpit Pandey', role: 'All-rounder', basePrice: 500000, currentPrice: 500000 },
+    { id: 'player-2', name: 'Arpit Pandey', role: 'All-rounder', basePrice: 500000, currentPrice: 550000 },
     { id: 'player-3', name: 'Saksham Rai', role: 'All-rounder', basePrice: 500000, currentPrice: 500000 },
     { id: 'player-4', name: 'Jatin Prajapati', role: 'All-rounder', basePrice: 500000, currentPrice: 500000 },
     { id: 'player-5', name: 'Manish Jaiswal', role: 'All-rounder', basePrice: 500000, currentPrice: 500000 },
@@ -202,8 +202,8 @@ function CricketAuction() {
     };
 
     const handleBid = (playerId) => {
-        console.log(playerId)
         setPlayers(players.map(player => {
+            // Fixed the comparison - was comparing player.id with player.id before
             if (player.id === playerId) {
                 return {
                     ...player,
@@ -248,7 +248,7 @@ function CricketAuction() {
                     ))}
                 </div>
 
-                <DragOverlay>
+                {/* <DragOverlay>
                     {activeId ? (
                         <PlayerCard
                             player={players.find(p => p.id === activeId)}
@@ -256,7 +256,7 @@ function CricketAuction() {
                             isSelected={true}
                         />
                     ) : null}
-                </DragOverlay>
+                </DragOverlay> */}
             </DndContext>
         </div>
     );

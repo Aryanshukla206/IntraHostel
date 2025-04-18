@@ -12,7 +12,7 @@ function PlayerCard({ player, onBid, isDragging, isSelected, onClick }) {
     } : undefined;
 
     const handleBidClick = (e) => {
-        console.log("hii")
+        console.log(player.id);
         e.stopPropagation();
         onBid(player.id);
     };
@@ -24,7 +24,7 @@ function PlayerCard({ player, onBid, isDragging, isSelected, onClick }) {
             style={style}
             {...attributes}
             {...listeners}
-            // onClick={onClick}
+            onClick={onClick}
             onDoubleClick={handleBidClick}
             className={`backdrop-blur-xl bg-white/20 rounded-lg p-6 shadow-md transition-all duration-300 flex flex-col gap-4 no-underline text-inherit z-10 hover:-translate-y-1 hover:shadow-lg ${isSelected ? 'border-2 border-green-500' : ''
                 } ${isDragging ? 'opacity-50' : ''}`}
